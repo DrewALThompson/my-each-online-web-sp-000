@@ -1,2 +1,2 @@
-def my_each(array){|index| puts i}
+def my_each(array){|index| puts index}
 end
