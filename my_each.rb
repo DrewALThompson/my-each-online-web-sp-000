@@ -1,5 +1,6 @@
 def my_each(array)
-  while array.length > 0 
+  let i = 0
+  while array.length > i
   
   yield(array){|index| puts index}
   index
