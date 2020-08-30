@@ -1,7 +1,7 @@
 def my_each(array)
  if block_given?
   i = 0
-  new = []
+  new = ""
   while array.length > i
   yield new << array[i]
   index += 1 
